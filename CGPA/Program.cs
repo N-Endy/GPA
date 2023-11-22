@@ -29,16 +29,16 @@ if (userInput == "1")
     {
         // Course Code
         input1.PrintMessage($"Entry number: {i + 1}");
-        input1.PrintMessage("Enter course code e.g: Math-101 ");
+        input1.PrintMessage("Enter course code e.g Math-101: ");
         string? courseCode = Console.ReadLine();
 
         // Course Unit
-        input1.PrintMessage("Enter course unit. Range 1 - 5");
+        input1.PrintMessage("Enter course unit. Range 1 - 5: ");
         int courseUnit;
         while (!int.TryParse(Console.ReadLine(), out courseUnit) || courseUnit < 0 || courseUnit > 5)
         {
             input1.PrintMessage("Invalid input. Please enter a positive integer for Course Unit.");
-            input1.PrintMessage("Enter Course Unit: ");
+            input1.PrintMessage("Enter course unit. Range 1 - 5: ");
         }
 
         // Score
