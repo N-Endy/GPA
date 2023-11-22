@@ -81,4 +81,8 @@ if (userInput == "1")
     input1.PrintMessage("GPA is calculated using the formula:");
     input1.PrintMessage("(Total Quality Points) / (Total Course Units)");
 }
+else if (userInput == "0")
+{
+    Environment.Exit(0);
+}
 
