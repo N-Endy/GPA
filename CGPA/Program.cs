@@ -6,14 +6,14 @@ input1.PrintMessage("Press (1) for GPA calculation");
 input1.PrintMessage("Press (0) to end process");
 
 // Check if correct input of (1) or (0)
-string? input = "";
-while (input != "1" && input != "0")
+string? userInput = "";
+while (userInput != "1" && userInput != "0")
 {
     input1.PrintMessage("Select an action to perform: ");
-    input = Console.ReadLine();
+    userInput = Console.ReadLine();
 }
 
-if (input == "1")
+if (userInput == "1")
 {
     input1.PrintMessage("How many courses would you like to enter: ");
     int numberOfCourses;
