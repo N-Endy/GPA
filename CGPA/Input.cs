@@ -10,8 +10,9 @@ namespace CGPA
 
         public void PrintMessage(string message)
         {
-            Console.Write(message);
             Console.WriteLine();
+            Console.WriteLine();
+            Console.Write(message);
         }
     }
 }
