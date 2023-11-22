@@ -35,14 +35,14 @@ if (userInput == "1")
         // Course Unit
         input1.PrintMessage("Enter course unit. Range 1 - 5: ");
         int courseUnit;
-        while (!int.TryParse(Console.ReadLine(), out courseUnit) || courseUnit < 0 || courseUnit > 5)
+        while (!int.TryParse(Console.ReadLine(), out courseUnit) || courseUnit < 1 || courseUnit > 5)
         {
             input1.PrintMessage("Invalid input. Please enter a positive integer for Course Unit.");
             input1.PrintMessage("Enter course unit. Range 1 - 5: ");
         }
 
         // Score
-        input1.PrintMessage("Enter Score: ");
+        input1.PrintMessage("Enter Score. Range 0 - 100: ");
         int score;
         while (!int.TryParse(Console.ReadLine(), out score) || score < 0 || score > 100)
         {
@@ -80,6 +80,7 @@ if (userInput == "1")
     input1.PrintMessage($"Your GPA is: {gpa}");
     input1.PrintMessage("GPA is calculated using the formula:");
     input1.PrintMessage("(Total Quality Points) / (Total Course Units)");
+    Console.WriteLine();
 }
 else if (userInput == "0")
 {
