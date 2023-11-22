@@ -4,7 +4,6 @@ Input input1 = new();
 
 input1.PrintMessage("Press (1) for GPA calculation");
 input1.PrintMessage("Press (0) to end process");
-input1.PrintMessage("Select an action to perform: ");
 
 // Check if correct input of (1) or (0)
 string? input = "";

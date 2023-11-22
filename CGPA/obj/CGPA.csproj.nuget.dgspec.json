@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/nelson/Desktop/CSharProjects/CGPA/CGPA.csproj": {}
+    "/home/nelson/Desktop/CSharpProjects/CGPA/CGPA.csproj": {}
   },
   "projects": {
-    "/home/nelson/Desktop/CSharProjects/CGPA/CGPA.csproj": {
+    "/home/nelson/Desktop/CSharpProjects/CGPA/CGPA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/nelson/Desktop/CSharProjects/CGPA/CGPA.csproj",
+        "projectUniqueName": "/home/nelson/Desktop/CSharpProjects/CGPA/CGPA.csproj",
         "projectName": "CGPA",
-        "projectPath": "/home/nelson/Desktop/CSharProjects/CGPA/CGPA.csproj",
+        "projectPath": "/home/nelson/Desktop/CSharpProjects/CGPA/CGPA.csproj",
         "packagesPath": "/home/nelson/.nuget/packages/",
-        "outputPath": "/home/nelson/Desktop/CSharProjects/CGPA/obj/",
+        "outputPath": "/home/nelson/Desktop/CSharpProjects/CGPA/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/nelson/.nuget/NuGet/NuGet.Config"
